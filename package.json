@@ -1,6 +1,6 @@
 {
   "name": "tilejsonHttpShim",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Register tilejson with tilelive for http: protocol",
   "main": "index.js",
   "author": "Jesse Crocker <jesse@GaiaGPS.com>",
@@ -13,6 +13,6 @@
   },
   "peerDependencies": {
     "tilelive": "*",
-    "tilejson": "*"
+    "@mapbox/tilejson": "*"
   }
 }
